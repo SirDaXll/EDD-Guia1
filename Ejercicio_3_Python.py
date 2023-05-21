@@ -11,6 +11,6 @@ for i in range(3):
 print("La matriz es:")
 print(matriz)
 
-#calcular y obtener resultado de la determinante
+#calcular para que nos dé el resultado de la determinante
 determinante = np.linalg.det(matriz)
 print("El determinante es:", determinante)
