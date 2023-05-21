@@ -20,6 +20,7 @@ List<int> generarNegativos(int length, int min, int max) {
 }
 
 void main() {
+  print('Multiplicar listas, concatenar con otra lista negativa y ordenar descendentemente');
   // Definir las dos listas a multiplicar
   List<int> lista1 = [4, 3, 2, 2, 1];
   List<int> lista2 = [-3, 2, 8, 0, 1];
