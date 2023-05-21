@@ -9,7 +9,7 @@ matriz_original = np.random.randint(1, 10, size=(dimension, dimension))
 print("La matriz original es:")
 print(matriz_original)
 
-#Se calcula la matriz inversa utilizando la libreria numpy
+#Se calcula la matriz inversa
 matriz_inversa = np.linalg.inv(matriz_original)
 
 #Se imprime la matriz inversa
