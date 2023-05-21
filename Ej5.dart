@@ -27,9 +27,9 @@ void main() {
   List<int> lista3 = generarLista(7, 30, 100);
 
   // Imprimir las listas generadas
-  print('Lista 1: $lista1');
-  print('Lista 2: $lista2');
-  print('Lista 3: $lista3');
+  print('Lista 1:\n$lista1');
+  print('Lista 2:\n$lista2');
+  print('Lista 3:\n$lista3');
 
   // Calcular el promedio de cada lista
   List<double> promedios = [
@@ -39,5 +39,5 @@ void main() {
   ];
 
   // Imprimir los promedios obtenidos
-  print('\nPromedios: $promedios');
+  print('\nPromedios:\n$promedios');
 }
