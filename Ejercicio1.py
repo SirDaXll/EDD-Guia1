@@ -20,7 +20,6 @@ sumaAltaColumna = max(sumaColumna)
 sumaFilas = [sum(filas) for filas in m1]
 
 ##La suma de las filas
-
 sumaBajaFilas = min(sumaFilas)
 
 print("La suma mas alta de las columnas es:", sumaAltaColumna)
